@@ -1,0 +1,15 @@
+diff -rup gingerbase-2.2.2/ui/config/tab-ext.xml gingerbase-2.2.2-no-software-updates/ui/config/tab-ext.xml
+--- gingerbase-2.2.2/ui/config/tab-ext.xml	2016-12-15 07:26:47.000000000 -0500
++++ gingerbase-2.2.2-no-software-updates/ui/config/tab-ext.xml	2017-01-25 14:49:39.658174883 -0500
+@@ -25,11 +25,4 @@ Foundation, Inc., 51 Franklin Street, Fi
+         <order>0</order>
+         <path>plugins/gingerbase/tabs/host-dashboard.html</path>
+     </tab>
+-    <tab>
+-        <access role="admin" mode="admin"/>
+-        <access role="user" mode="none"/>
+-        <title>Updates</title>
+-        <order>20</order>
+-        <path>plugins/gingerbase/tabs/host-update.html</path>
+-    </tab>
+ </tabs-ext>

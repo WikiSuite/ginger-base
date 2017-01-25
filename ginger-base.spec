@@ -7,6 +7,7 @@ BuildArch:	noarch
 Group:		System Environment/Base
 License:	LGPL/ASL2
 Source0:	gingerbase-%{version}.tar.gz
+Patch1: 	gingerbase-2.2.2-no-software-updates.patch
 Requires:	wok >= 2.1.0
 Requires:	pyparted
 Requires:	python-cherrypy
@@ -41,6 +42,7 @@ common tools for configuring and managing the Linux systems.
 
 %prep
 %setup -q -n gingerbase-%{version}
+%patch1 -p1 -b .no_software_updates
 
 %build
 ./autogen.sh --system
