@@ -69,6 +69,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Jan 24 2016 eGloo <developer@egloo.ca> 2.2.2
+- First build
+
 * Wed Mar 23 2016 Daniel Henrique Barboza <dhbarboza82@gmail.com>
 - Added wok version restriction >= 2.1.0
 
