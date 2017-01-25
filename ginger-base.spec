@@ -18,6 +18,8 @@ Requires:	rpm-python
 Requires:	gettext
 Requires:	git
 Requires:	sos
+BuildRequires:  autoconf
+BuildRequires:  automake
 BuildRequires:	gettext-devel
 BuildRequires:	libxslt
 BuildRequires:	python-lxml
