@@ -24,19 +24,6 @@ BuildRequires:	gettext-devel
 BuildRequires:	libxslt
 BuildRequires:	python-lxml
 
-%if 0%{?fedora} >= 23
-Requires:	python2-dnf
-%endif
-
-%if 0%{?fedora} >= 15 || 0%{?rhel} >= 7
-%global with_systemd 1
-%endif
-
-%if 0%{?rhel} == 6
-Requires:	python-ordereddict
-BuildRequires:	python-unittest2
-%endif
-
 %description
 Ginger Base is an open source base host management plugin for Wok
 (Webserver Originated from Kimchi), that provides an intuitive web panel with
